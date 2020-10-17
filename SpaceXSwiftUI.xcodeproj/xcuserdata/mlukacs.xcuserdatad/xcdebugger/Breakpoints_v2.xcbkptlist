@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C3036F28-B971-408D-B544-2C42A4FC4675"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49F27761-5B4D-412A-BA76-5AD35152F384"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpaceXSwiftUI/Scenes/Launches/LaunchesView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "scrollViewContent"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "49F27761-5B4D-412A-BA76-5AD35152F384 - 2422c1b7aaf68da5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SpaceXSwiftUI.Launch) -&gt; SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;SpaceXSwiftUI.Launch&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SpaceXSwiftUI.Launch&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;&gt; in SpaceXSwiftUI.LaunchesView.(scrollViewContent in _36A25C403233C812BCB76B8C5152A5F3).getter : some"
+                  moduleName = "SpaceXSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mlukacs/Projects/SpaceXSwiftUI/SpaceXSwiftUI/Scenes/Launches/LaunchesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1893">
+               </Location>
+               <Location
+                  uuid = "49F27761-5B4D-412A-BA76-5AD35152F384 - 163139170896d873"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SpaceXSwiftUI.LaunchUINavigationButton in closure #1 (SpaceXSwiftUI.Launch) -&gt; SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;SpaceXSwiftUI.Launch&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;, SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SpaceXSwiftUI.Launch&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SpaceXSwiftUI.LaunchUINavigationButton, SpaceXSwiftUI.NavigationLazyView&lt;&lt;&lt;opaque return type of SpaceXSwiftUI.MainRouter.routeToDetailLaunch(for: SpaceXSwiftUI.Launch) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;&gt; in SpaceXSwiftUI.LaunchesView.(scrollViewContent in _36A25C403233C812BCB76B8C5152A5F3).getter : some"
+                  moduleName = "SpaceXSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mlukacs/Projects/SpaceXSwiftUI/SpaceXSwiftUI/Scenes/Launches/LaunchesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
