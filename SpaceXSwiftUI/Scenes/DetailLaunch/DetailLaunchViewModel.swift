@@ -23,7 +23,7 @@ final class DetailLaunchViewModel: ObservableObject {
         setUp()
     }
     
-    func setUpVM(for launch: Launch) {
+    func setUpViewModel(for launch: Launch) {
         self.launch = launch
     }
 }

@@ -18,13 +18,13 @@ protocol LaunchesRepositoryContract: class {
 
 final class LaunchesRepository: LaunchesRepositoryContract {
     
-    private let networService: NetworkServiceContract
+    private let networkService: NetworkServiceContract
     private var cancellables = Set<AnyCancellable>()
     private(set) var launches: CurrentValueSubject<Launches, Never> = .init([])
     var isLoadingContent: CurrentValueSubject<Bool, Never> = .init(false)
     
-    init(networService: NetworkServiceContract) {
-        self.networService = networService
+    init(networkService: NetworkServiceContract) {
+        self.networkService = networkService
         setUp()
     }
     

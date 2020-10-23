@@ -36,7 +36,7 @@ protocol RouteToDetailLaunchContract {
 extension MainRouter: RouteToDetailLaunchContract {
     func routeToDetailLaunch(for launch: Launch) -> DetailLaunchView  {
         let detail = DetailLaunchView()
-        detail.viewModel.setUpVM(for: launch)
+        detail.viewModel.setUpViewModel(for: launch)
         return detail
     }
 }
