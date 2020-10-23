@@ -10,7 +10,7 @@ final class RepositoriesDependencyInjector {
     // MARK: - Services
     private(set) lazy var services = ServicesDependencyInjector()
     
-    private(set) lazy var launchesRepository: LaunchesRepositoryContract = LaunchesRepository(networService: services.networkService)
+    private(set) lazy var launchesRepository: LaunchesRepositoryContract = LaunchesRepository(networkService: services.networkService)
 }
 
 // MARK: - Network service

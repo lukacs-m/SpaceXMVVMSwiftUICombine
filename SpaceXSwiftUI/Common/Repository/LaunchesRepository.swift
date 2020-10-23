@@ -61,7 +61,7 @@ private extension LaunchesRepository {
     func launches(limit: Int?, offset: Int?) -> AnyPublisher<Launches, Error> {
         let endpoint = Endpoint.launches(limit: limit, offset: offset)
         
-        return networService.fetch(type: Launches.self,
+        return networkService.fetch(type: Launches.self,
                                    url: endpoint.url,
                                    headers: endpoint.headers!)
     }
@@ -69,7 +69,7 @@ private extension LaunchesRepository {
     func launch(by flightNumber: Int) -> AnyPublisher<Launch, Error>{
         let endpoint = Endpoint.launch(by: flightNumber)
         
-        return networService.fetch(type: Launch.self,
+        return networkService.fetch(type: Launch.self,
                                    url: endpoint.url,
                                    headers: endpoint.headers!)
     }
